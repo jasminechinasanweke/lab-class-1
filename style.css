@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    box-shadow: 2px 2px 20px rgba(209,209,209,0.5);
+}   
+
+.navigation{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    gap: 50px;
+}
+    
+.first_link{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+.second_link{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 30px;
+   
+}
+.logo_parent{
+    width: 10%;
+}
+.link_parent{
+    width: 90%;
+}
+.search_link{
+    margin-left: auto;
+}
+.link {
+    text-decoration: none;
+    color: black;
+}
+.order_link{
+    padding: 10px 20px;
+    background-color: orange;
+}
+.section1{
+    display: flex;
+    gap: 20px;
+  padding: 100px 0px;
+     
+}
+.section1_image{
+    width: 60%;
+}
+.section1_details{
+width: 40%;
+}
+.section1_image img{
+    width: 100%;
+}
+.section_details{
+margin-bottom: 20px;
+}
+.details_title{
+    margin-bottom: 20px;
+}
+.details_first{
+font-size: 15px;
+line-height: 1.2;
+margin-bottom: 1.5rem;
+}
+.details_second{
+font-size: 10px;
+margin-bottom: 2.5rem;
+line-height: 1.2;
+}
+.details_btn{
+    background-color: orange;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.right{
+    font-size: 400;
+    margin-top: 20px;
+    align-items: center;
+    margin-bottom: 5px;
+    justify-content: center;
+}
+.details_seconds{
+font-size: 10px;
+margin-bottom: 2.5rem;
+line-height: 1.2;
+align-items: center;
+justify-content: center;
+}
+.details_firsts{
+font-size: 15px;
+line-height: 1.2;
+margin-bottom: 1.5rem;
+align-items: center;
+justify-content: center;
+}
+.team {
+    background-size: cover;
+    height: 600px;
+}
+.team1 {
+    background-image: url(./images/3PUB_Loyalty_LP_EarnPoints_2336x1040_3-column-desktop.avif);
+}
+
+.team2 {
+    background-image: url(./images/3PUB_Loyalty_LP_PayEarn_2336x1040_3-column-desktop.avif);
+}
+
+.team3 {
+    background-image: url(./images/3PUB_Loyalty_LP_Redeem_2336x1040_3-column-desktop.avif);
+}
+.project_team{
+    display: grid;
+    grid-template-columns: 3, 1fr;
+    margin: 40px auto;
+    gap: 20px;
+}
+
+
+   
